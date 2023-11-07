@@ -27,33 +27,42 @@ export default function Homepage({ posts }: InferGetStaticPropsType<typeof getSt
         <WhiteBackgroundContainer>
           <Hero />
           <Partners />
-          <BasicSection imageUrl="/demo-illustration-1.svg" title="Lorem ipsum dolor sit amet consectetur." overTitle="sit amet gogo">
-            <p>
+          <BasicSection imageUrl="/demo-illustration-1.svg" title="WhatsApp Campaigns" overTitle="WhatsApp Broadcast CRM">
+            {/* <p>
               Lorem ipsum dolor sit amet consectetur adipisicing elit. Quas, quidem error incidunt a doloremque voluptatem porro inventore
               voluptate quo deleniti animi laboriosam.{' '}
               <Link href="/help-center">Possimus ullam velit rem itaque consectetur, in distinctio?</Link> Lorem ipsum, dolor sit amet
               consectetur adipisicing elit. Soluta repellendus quia quos obcaecati nihil. Laudantium non accusantium, voluptate eum nesciunt
               at suscipit quis est soluta?
-            </p>
-          </BasicSection>
-          <BasicSection imageUrl="/demo-illustration-2.svg" title="Lorem ipsum dolor sit." overTitle="lorem ipsum" reversed>
+            </p> */}
             <p>
-              Lorem ipsum dolor sit amet consectetur adipisicing elit. Quas, quidem error incidunt a doloremque voluptatem porro inventore{' '}
-              <strong>voluptate quo deleniti animi laboriosam</strong>. Possimus ullam velit rem itaque consectetur, in distinctio?
+            Schedule & Send highly personalized WhatsApp messages to{' '}
+              <strong>streamline your marketing</strong>. and driving higher sales.
             </p>
             <ul>
-              <li>Professional point 1</li>
-              <li>Professional remark 2</li>
-              <li>Professional feature 3</li>
+              <li>Tag and categorize your customers using personalized communications.</li>
+              <li>Schedule campaigns and engage with 75% higher response rate.</li>
+              <li>Build and nurture the relationships</li>
+            </ul>
+          </BasicSection>
+          <BasicSection imageUrl="/demo-illustration-2.svg" title="Shared Team Inbox + Automations." overTitle="Customer Support tool" reversed>
+            <p>
+            connects popular <strong>customer communication channels</strong> like Website live-chat, Facebook, WhatsApp, Instagram, Line, etc.
+            </p>
+            <ul>
+              <li>[ChatGPT integration] AI-generated reply suggestions for faster responses</li>
+              <li>Easily add yourself or fellow agents as participants to a conversation</li>
+              <li>Personalize your Canned Responses</li>
+              <li>Video call your customers from website live chat</li>
             </ul>
           </BasicSection>
         </WhiteBackgroundContainer>
         <DarkerBackgroundContainer>
-          <Cta />
+          {/* <Cta /> */}
           <FeaturesGallery />
           <Features />
-          <Testimonials />
-          <ScrollableBlogPosts posts={posts} />
+          {/* <Testimonials /> */}
+          {/* <ScrollableBlogPosts posts={posts} /> */}
         </DarkerBackgroundContainer>
       </HomepageWrapper>
     </>

@@ -14,19 +14,21 @@ export default function Hero() {
   return (
     <HeroWrapper>
       <Contents>
-        <CustomOverTitle>the coolest, saas product you have ever seen</CustomOverTitle>
-        <Heading>Make your life easier with our SaaS</Heading>
+        <CustomOverTitle>the coolest, WhatsApp CRM you have ever seen</CustomOverTitle>
+        <Heading>Automate Business with WhatsApp</Heading>
         <Description>
-          Lorem ipsum dolor sit amet consectetur adipisicing elit. Reiciendis, tempora qui. Explicabo voluptate iure ipsum molestias
-          repudiandae perspiciatis nostrum praesentium, unde pariatur tempora magni rem. Necessitatibus facilis obcaecati ratione.
+        Complete, Ready-to-Use Software for All Your Business Needs | WhatsApp CRM | Customer Support tool | AI Chatbot Development
         </Description>
         <CustomButtonGroup>
-          <Button onClick={() => setIsModalOpened(true)}>
-            Subscribe to the newsletter <span>&rarr;</span>
-          </Button>
-          <NextLink href="#whitepaper" passHref>
+          <NextLink href="https://forms.gle/CmYx84QaTkLceJPK8" passHref >
+          {/* <Button onClick={() => setIsModalOpened(true)}> */}
+            <Button>
+              Get Early Access <span>&rarr;</span>
+            </Button>
+          </NextLink>
+          <NextLink href="https://wa.me/919820973885?text=Hi" passHref>
             <Button transparent>
-              Features <span>&rarr;</span>
+              Chat with us <span>&rarr;</span>
             </Button>
           </NextLink>
         </CustomButtonGroup>

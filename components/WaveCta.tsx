@@ -21,16 +21,16 @@ export default function WaveCta() {
       </svg>
       <CtaWrapper>
         <Container>
-          <Title>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Temporibus delectus?</Title>
+          <Title>Get The WhatsApp marketing Ebook</Title>
           <CustomButtonGroup>
             <Button onClick={() => setIsModalOpened(true)}>
-              Subscribe to the newsletter <span>&rarr;</span>
+              Request Download Link<span>&rarr;</span>
             </Button>
-            <NextLink href="/features" passHref>
+            {/* <NextLink href="/features" passHref>
               <OutlinedButton transparent>
                 Features <span>&rarr;</span>
               </OutlinedButton>
-            </NextLink>
+            </NextLink> */}
           </CustomButtonGroup>
         </Container>
       </CtaWrapper>

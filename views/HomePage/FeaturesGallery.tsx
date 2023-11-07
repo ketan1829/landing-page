@@ -10,25 +10,25 @@ import { media } from 'utils/media';
 
 const TABS = [
   {
-    title: 'Find relevant media contacts - multiline title',
+    title: 'WhatsApp Broadcasting CRM',
     description:
-      '<p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Quibusdam quidem ipsam ratione dicta quis cupiditate consequuntur laborum ducimus iusto velit.</p>',
+      '<p>Schedule and send WhatsApp Broadcast using WhatsApp Cloud based on the customers categorized by you | Import contacts from google sheet & schedule your Broadcast in few clicks</p>',
     imageUrl: '/demo-illustration-3.png',
     baseColor: '249,82,120',
     secondColor: '221,9,57',
   },
   {
-    title: 'Another amazing feature',
+    title: 'Customer support tool',
     description:
-      '<p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Quibusdam quidem ipsam ratione dicta quis cupiditate consequuntur laborum ducimus iusto velit.</p>',
+      '<p>Connect any conversation channel and engage your customers | Manage your Facebook page & Instagram DM. | WhatsApp Business Accounts | Build custom channels using API</p>',
     imageUrl: '/demo-illustration-4.png',
     baseColor: '57,148,224',
     secondColor: '99,172,232',
   },
   {
-    title: 'And yet... another truly fascinating feature',
+    title: 'AI WhatsApp Chatbot ',
     description:
-      '<p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Quibusdam quidem ipsam ratione dicta quis cupiditate consequuntur laborum ducimus iusto velit.</p>',
+      '<p>seamlessly handles tasks such as Product Listing, Inventory Management, Order Management, Payment Collection, Invoicing, Logistics Integration, as well as Upselling, Cross-selling, and aggregating Notifications & Feedback.</p>',
     imageUrl: '/demo-illustration-5.png',
     baseColor: '88,193,132',
     secondColor: '124,207,158',
@@ -76,8 +76,8 @@ export default function FeaturesGallery() {
   return (
     <FeaturesGalleryWrapper>
       <Content>
-        <OverTitle>features</OverTitle>
-        <SectionTitle>What are you signing in for?</SectionTitle>
+        {/* <OverTitle>Lifeel</OverTitle> */}
+        <SectionTitle>FEATURES</SectionTitle>
       </Content>
       <GalleryWrapper>
         <TabsContainer>{tabsMarkup}</TabsContainer>

@@ -19,8 +19,8 @@ const PARTNER_LOGOS = [
 export default function Partners() {
   return (
     <PartnersWrapper>
-      <Title>official partners with</Title>
-      <Swiper
+      <Title>The Ultimate Customer-Favorite Interaction Channel</Title>
+      {/* <Swiper
         modules={[Autoplay]}
         slidesPerView={6}
         spaceBetween={30}
@@ -39,7 +39,7 @@ export default function Partners() {
             <NextImage src={'/partners/' + logo} alt={normalizePartnerLogoName(logo)} width={128} height={128} />
           </SwiperSlide>
         ))}
-      </Swiper>
+      </Swiper> */}
     </PartnersWrapper>
   );
 }
@@ -49,7 +49,7 @@ function normalizePartnerLogoName(logo: string) {
 }
 
 const Title = styled.h3`
-  font-size: 1.3rem;
+  font-size: 2.5rem;
   letter-spacing: 0.02em;
   line-height: 0;
   text-transform: uppercase;

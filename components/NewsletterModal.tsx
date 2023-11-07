@@ -43,7 +43,7 @@ export default function NewsletterModal({ onClose }: NewsletterModalProps) {
                 {hasSignedUp && <MailSentState />}
                 {!hasSignedUp && (
                   <>
-                    <Title>Are you ready to enroll to the best newsletter ever?</Title>
+                    <Title>Ultimate WhatsApp Marketing Guide</Title>
                     <Row>
                       <CustomInput
                         value={email}
