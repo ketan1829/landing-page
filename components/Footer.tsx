@@ -75,7 +75,7 @@ export default function Footer() {
               </a>
             </NextLink>
           </ShareBar>
-          <Copyright>&copy; Copyright 2023 My Saas Startup</Copyright>
+          <Copyright>&copy; Copyright 2023 Lifeel Automations</Copyright>
         </BottomBar>
       </Container>
     </FooterWrapper>

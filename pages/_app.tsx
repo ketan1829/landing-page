@@ -20,10 +20,11 @@ import { NewsletterModalContextProvider, useNewsletterModalContext } from 'conte
 import { NavItems } from 'types';
 
 const navItems: NavItems = [
-  { title: 'Awesome CRM Features', href: '/features' },
-  { title: 'Pricing', href: '/pricing' },
+  // { title: 'Awesome CRM Features', href: '/features' },
+  { title: 'Awesome CRM Features', href: '/#' },
+  // { title: 'Pricing', href: '/pricing' },
   { title: 'Contact', href: '/contact' },
-  { title: 'Sign up', href: '/sign-up', outlined: true },
+  { title: 'Sign up', href: 'https://crm.lifeel.in', outlined: true },
 ];
 
 const TinaCMS = dynamic(() => import('tinacms'), { ssr: false });
