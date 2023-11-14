@@ -41,7 +41,7 @@ export default function MailSentState() {
           fill="#1673ff"
         />
       </svg>
-      <p>You'll receive an Email Shortly!</p>
+      <p>Expect to receive an Email Shortly!</p>
     </Wrapper>
   );
 }
