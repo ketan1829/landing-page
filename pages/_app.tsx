@@ -44,6 +44,17 @@ function MyApp({ Component, pageProps }: AppProps) {
           }}
         /> */}
         {/* <script async src="https://www.google-analytics.com/analytics.js"></script> */}
+
+        <script
+          id="mcjs"
+          dangerouslySetInnerHTML={{
+            __html: `
+              !function(c,h,i,m,p){m=c.createElement(h),p=c.getElementsByTagName(h)[0],m.async=1,m.src=i,p.parentNode.insertBefore(m,p)}
+              (document,"script","https://chimpstatic.com/mcjs-connected/js/users/b89325f0a520d8c657281c05b/cbfe050685939fc92d9122a01.js");
+            `,
+          }}
+        />
+
       </Head>
       <ColorModeScript />
       <GlobalStyle />
