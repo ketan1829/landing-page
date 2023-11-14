@@ -5,7 +5,16 @@ export default function InformationSection() {
     <Wrapper>
       <h3>Contact Info</h3>
       <p>
-        <span>Email:</span> support@myawesomesaas.com
+        <span>Lifeel Automations</span>
+      </p>
+      <p>
+        <span>Email:</span> info@lifeel.in
+      </p>
+      <p>
+        <span>Contact:</span> +91 98209 73885
+      </p>
+      <p>
+        <span>Website:</span> https://lifeel.in
       </p>
     </Wrapper>
   );
