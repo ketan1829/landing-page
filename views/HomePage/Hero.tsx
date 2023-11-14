@@ -14,10 +14,10 @@ export default function Hero() {
   return (
     <HeroWrapper>
       <Contents>
-        <CustomOverTitle>the coolest, WhatsApp CRM you have ever seen</CustomOverTitle>
+        <CustomOverTitle>the coolest WhatsApp CRM</CustomOverTitle>
         <Heading>Automate Business with WhatsApp</Heading>
         <Description>
-        Complete, Ready-to-Use Software for All Your Business Needs | WhatsApp CRM | Customer Support tool | AI Chatbot Development
+        Complete, Ready-to-Use Software for All Your Business Needs  WhatsApp CRM | Customer Support tool | AI Chatbot Development
         </Description>
         <CustomButtonGroup>
           <NextLink href="https://forms.gle/CmYx84QaTkLceJPK8" passHref >
