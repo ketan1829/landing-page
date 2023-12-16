@@ -24,12 +24,12 @@ export default function Hero() {
   const handleSubmit = (e: { preventDefault: () => void; }) => {
     // Handle form submission logic
 
-    const formData = new FormData(e.target);
-    const data = {};
-    formData.forEach((value, key) => {
-      data[key] = value;
-    });
-    console.log("formData---", formData);
+    // const formData = new FormData(e.target);
+    // const data = {};
+    // formData.forEach((value, key) => {
+    //   data[key] = value;
+    // });
+    // console.log("formData---", formData);
     
 
     e.preventDefault();
