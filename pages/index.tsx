@@ -27,7 +27,8 @@ export default function Homepage({ posts }: InferGetStaticPropsType<typeof getSt
         <WhiteBackgroundContainer>
           <Hero />
           <Partners />
-          <BasicSection imageUrl="/demo-illustration-1.svg" title="WhatsApp Campaigns" overTitle="WhatsApp Broadcast CRM">
+          {/* <BasicSection imageUrl="/demo-illustration-1.svg" title="WhatsApp Campaigns" overTitle="WhatsApp Broadcast CRM"> */}
+          <BasicSection imageUrl="/images/Broadcast.png" title="WhatsApp Campaigns" overTitle="WhatsApp Broadcast CRM">
             {/* <p>
               Lorem ipsum dolor sit amet consectetur adipisicing elit. Quas, quidem error incidunt a doloremque voluptatem porro inventore
               voluptate quo deleniti animi laboriosam.{' '}
@@ -45,7 +46,8 @@ export default function Homepage({ posts }: InferGetStaticPropsType<typeof getSt
               <li>Build and nurture the relationships</li>
             </ul>
           </BasicSection>
-          <BasicSection imageUrl="/demo-illustration-2.svg" title="Shared Team Inbox + Automations." overTitle="Customer Support tool" reversed>
+          {/* <BasicSection imageUrl="/demo-illustration-2.svg" title="Shared Team Inbox + Automations." overTitle="Customer Support tool" reversed> */}
+          <BasicSection imageUrl="/images/Support_tool.png" title="Shared Team Inbox + Automations." overTitle="Customer Support tool" reversed>
             <p>
             connects popular <strong>customer communication channels</strong> like Website live-chat, Facebook, WhatsApp, Instagram, Line, etc.
             </p>

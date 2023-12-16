@@ -13,7 +13,8 @@ const TABS = [
     title: 'WhatsApp Broadcasting CRM',
     description:
       '<p>Schedule and send WhatsApp Broadcast using WhatsApp Cloud based on the customers categorized by you | Import contacts from google sheet & schedule your Broadcast in few clicks</p>',
-    imageUrl: '/demo-illustration-3.png',
+    // imageUrl: '/demo-illustration-3.png',
+    imageUrl: '/images/Broadcasting.png',
     baseColor: '249,82,120',
     secondColor: '221,9,57',
   },
@@ -21,7 +22,8 @@ const TABS = [
     title: 'Customer support tool',
     description:
       '<p>Connect any conversation channel and engage your customers | Manage your Facebook page & Instagram DM. | WhatsApp Business Accounts | Build custom channels using API</p>',
-    imageUrl: '/demo-illustration-4.png',
+    // imageUrl: '/demo-illustration-4.png',
+    imageUrl: '/images/Channel.png',
     baseColor: '57,148,224',
     secondColor: '99,172,232',
   },
@@ -29,7 +31,8 @@ const TABS = [
     title: 'AI WhatsApp Chatbot ',
     description:
       '<p>seamlessly handles tasks such as Product Listing, Inventory Management, Order Management, Payment Collection, Invoicing, Logistics Integration, as well as Upselling, Cross-selling, and aggregating Notifications & Feedback.</p>',
-    imageUrl: '/demo-illustration-5.png',
+    // imageUrl: '/demo-illustration-5.png',
+    imageUrl: '/images/L_AI.png',
     baseColor: '88,193,132',
     secondColor: '124,207,158',
   },
